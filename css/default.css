@@ -1,0 +1,81 @@
+/* Embedded Fonts */
+/* @font-face {
+	font-family: Avenir;
+	src: url(../fonts/Avenir.ttc);
+}
+*/
+
+
+
+/* Container Items */
+
+html,body {
+	height: 100%;
+	width: 100%;
+	
+}
+
+#cover {
+	width: 100%;
+	height: 100%;
+	background: url("../images/cover.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+
+}
+
+#container {
+	width: 750px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	left: 50%;
+	margin-left: 325px;
+
+}
+
+#chipz {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: url("../images/de waal.jpg") no-repeat;
+	background-position: right;
+
+}
+
+
+/* Paragraph Styles */
+
+.title {
+	font-family: Old Standard TT;
+	font-size: 3em;
+	padding-top: 748px;
+	padding-left: 180px;	
+}
+
+.cheetos {
+	font-family: Old Standard TT;
+	font-size: 3em;
+	padding-top: 11px;
+	padding-left: 180px;
+
+}
+.author {
+
+}
+
+
+.text {
+	font-family: Old Standard TT;
+	text-align: justify;
+}
+
+.italic {
+	font-family: Old Standard TT;
+}
+
+.woop {
+	width: 350px;
+	padding-top: 25px;
+	padding-bottom: -15px;
+	left: 50%;
+	margin-left: 325px;
+}
